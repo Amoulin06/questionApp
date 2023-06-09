@@ -25,14 +25,14 @@ struct ContentView: View {
                     Spacer()
                     
                     NavigationLink(destination: view2()) {
-                        Text ("Somewhere warm?")
+                        Text ("Somewhere Warm?")
                         
                     }
                     
                     Spacer()
                     
                     NavigationLink(destination: view3()) {
-                        Text ("Somewhere cold?")
+                        Text ("Somewhere Cold?")
                         
                         
                     }
@@ -50,6 +50,7 @@ struct ContentView: View {
         
         
     }
+
 
 
 struct ContentView_Previews: PreviewProvider {
